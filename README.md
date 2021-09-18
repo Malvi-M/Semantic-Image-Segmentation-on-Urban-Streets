@@ -59,11 +59,22 @@ For preprocessing the dataset and defining the model, we have defined several he
         * `path` - location or path of the image directory
         * `batch_size` - size of each batch
         * `maxangle` -  angle to rotate image
-    * **Returns** - Tuple of `batch_size` number of images and segmentation maps
+    * **Returns** - Tuple of `batch_size` number of images and segmentation maps<br/>
 
 
 
 
+
+## Learning Curves
+
+**1. VGG16_FCN Model**
+<img src="https://github.com/Malvi-M/Semantic-Image-Segmentation-on-Urban-Streets/blob/main/VGG_learn.png"><br/>
+
+**2. UNet Model**
+<img src="https://github.com/Malvi-M/Semantic-Image-Segmentation-on-Urban-Streets/blob/main/UNet_learn.png"><br/>
+
+**3. ResNet50_FCN Model**
+<img src="https://github.com/Malvi-M/Semantic-Image-Segmentation-on-Urban-Streets/blob/main/ResNet50_learning.png" width="1400" height="500">
 
 ## Results
 
