@@ -75,6 +75,20 @@ For preprocessing the dataset and defining the model, we have defined several he
 <img src="https://github.com/Malvi-M/Semantic-Image-Segmentation-on-Urban-Streets/blob/main/ResNet50_learning.png" width="1400" height="500"><br/><br/>
 
 
+## Results
+
+**1. VGG16_FCN ROC Curve**<br/>
+<p align="center"><img src="https://github.com/Malvi-M/Semantic-Image-Segmentation-on-Urban-Streets/blob/main/VGG_class_roc.PNG" width="500" height="500"><br/>
+   Accuracy: 82% </p><br/>
+
+
+**2. UNet Model**<br/>
+<p align="center"><img src="https://github.com/Malvi-M/Semantic-Image-Segmentation-on-Urban-Streets/blob/main/UNET_Class_roc.PNG" width="500" height="500"><br/>
+Accuracy: 70%</p><br/>
+
+**3. ResNet50_FCN Model**
+<p align="center"><img src="https://github.com/Malvi-M/Semantic-Image-Segmentation-on-Urban-Streets/blob/main/ResNet_roc.png" width="500" height="500"><br/>
+Accuracy: 80%</p><br/><br/>
 
 
 
