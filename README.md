@@ -1,6 +1,6 @@
 # Semantic-Image-Segmentation-on-Urban-Streets
 
-In this project, we have performed Semantic Image Segmentation on Urban Streets Dataset. Semantic Segmentation is one of the core element of complex system of Autonomous Driving. 
+In this project, we have performed Semantic Image Segmentation on Urban Streets Dataset. Semantic Segmentation is one of the core element of complex system of Autonomous Driving. Image segmentation can be interpreted as a classification problem, where the task is to classify each pixel of the image into a particular class. To build an end-to-end pixel-to-pixel segmentation network, our model must be capable of extracting rich spatial information from the images. A typical CNN used for classification takes an image as input, passes it through a series of convolutional and pooling layers and uses fully-connected layers in the end to output a fixed length vector, thus discarding all the spatial information from the original image.
 
 ## Description
 
@@ -60,34 +60,6 @@ For preprocessing the dataset and defining the model, we have defined several he
         * `batch_size` - size of each batch
         * `maxangle` -  angle to rotate image
     * **Returns** - Tuple of `batch_size` number of images and segmentation maps
-
-
----
-
-
-
-
-
-
-
-* `fcn` - Creates the FCN model
-    * **Arguements** :
-        * `vgg` - VGG16 pretrained model
-        * `classes` - Number of categories or unique pixel values (13)
-        * `fcn8` - Set True to use FCN-8s model
-        * `fcn16` - Set True to use FCN-16s model
-    * **Returns** - FCN model
-    * **Note** - If both `fcn8` and `fcn16` arguements are set to False, it returns FCN-32s model by default
-
-
-
-
----
-
-
-
-
-
 
 
 
